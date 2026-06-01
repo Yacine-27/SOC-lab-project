@@ -3,6 +3,7 @@ Network Architecture & Topology:
 
 <img width="575" height="340" alt="network-diagram" src="https://github.com/user-attachments/assets/8e0c48fe-1bd3-48ec-9cad-85d0a5428688" />
 
+
 Core Implementation Details:
 1. Telemetry & Auditing Enhancement
 Sysmon Deployment: Implemented SwiftOnSecurity Sysmon configuration to capture deep endpoint telemetry (Process creation, network connections).
