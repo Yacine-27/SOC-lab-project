@@ -1,5 +1,6 @@
 This project demonstrates the deployment of a (SOC) home lab environment. It features an Active Directory domain, comprehensive endpoint auditing via Sysmon and PowerShell GPOs, and centralized log analysis utilizing an enterprise-grade open-source SIEM (Wazuh).
 Network Architecture & Topology:
+
 <img width="1153" height="673" alt="network-diagram" src="https://github.com/user-attachments/assets/8e0c48fe-1bd3-48ec-9cad-85d0a5428688" />
 
 Core Implementation Details:
