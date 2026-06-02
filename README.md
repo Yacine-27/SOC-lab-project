@@ -3,7 +3,7 @@ Network Architecture & Topology:
 
 <img width="575" height="340" alt="network-diagram" src="https://github.com/user-attachments/assets/8e0c48fe-1bd3-48ec-9cad-85d0a5428688" />
 
-
+Wazuh Dashboard:
 
 <img width="575" height="340" alt="wazuh-dashboard" src="https://github.com/user-attachments/assets/f1884fa4-f785-443c-9e71-f0f54034dba7" />
 
