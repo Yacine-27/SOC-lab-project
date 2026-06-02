@@ -1,0 +1,50 @@
+{
+    "id": "lab-short-retention",
+    "seqNo": 0,
+    "primaryTerm": 1,
+    "policy": {
+        "policy_id": "lab-short-retention",
+        "description": "Lab retention policy to delete indices after 7 days",
+        "last_updated_time": 1780332339560,
+        "schema_version": 21,
+        "error_notification": null,
+        "default_state": "hot",
+        "states": [
+            {
+                "name": "hot",
+                "actions": [],
+                "transitions": [
+                    {
+                        "state_name": "delete",
+                        "conditions": {
+                            "min_index_age": "3d"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "delete",
+                "actions": [
+                    {
+                        "retry": {
+                            "count": 3,
+                            "backoff": "exponential",
+                            "delay": "1m"
+                        },
+                        "delete": {}
+                    }
+                ],
+                "transitions": []
+            }
+        ],
+        "ism_template": [
+            {
+                "index_patterns": [
+                    "wazuh-alerts-*"
+                ],
+                "priority": 100,
+                "last_updated_time": 1780332339559
+            }
+        ]
+    }
+}
