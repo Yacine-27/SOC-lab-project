@@ -8,7 +8,8 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 
 ## Wazuh Dashboard
 
-<img width="575" height="340" alt="wazuh-dashboard" src="https://github.com/user-attachments/assets/5c543bd1-a082-4ecf-be45-3838dff96d91" />
+<img width="960" height="397" alt="wazuh-dashboard" src="https://github.com/user-attachments/assets/cdd03ddd-dd65-48a4-af38-ce6fc35b5138" />
+
 
 ## Key Features
 
