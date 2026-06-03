@@ -1,4 +1,4 @@
-Adversarial Emulation & Detection: Authentication Brute-Force
+# Adversarial Emulation & Detection - Phase 02: Initial Access
 
 ## 1. Tactical Objective
 The objective of this phase is to simulate an external threat actor attempting to gain an initial foothold on an enterprise workstation via credential guessing. This exercise validates the SIEM's capability to ingest, parse, and alert on high-frequency authentication anomalies.
