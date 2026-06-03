@@ -18,9 +18,15 @@ hydra -L users.txt -P passwords.txt rdp://192.168.100.40 -V
 
 ## 2. Detection
 
+A spike in failed logons detected on target machine:
+
 <img width="1916" height="787" alt="Brute force on endpoint detected" src="https://github.com/user-attachments/assets/26808e3e-ac76-40dc-aa08-736af23898ee" />
 
-<img width="1455" height="612" alt="successful brute force" src="https://github.com/user-attachments/assets/4918ec05-f400-4557-9a2f-dab5f9998d86" />
+Successful network logon detected:
+
+<img width="1455" height="612" alt="successful network logon" src="https://github.com/user-attachments/assets/4918ec05-f400-4557-9a2f-dab5f9998d86" />
+
+Filtering for command ran on the attacker machine:
 
 <img width="1920" height="772" alt="Brute force commands detected" src="https://github.com/user-attachments/assets/28fa05b4-d76e-495c-bb3f-54ba836b97f3" />
 
