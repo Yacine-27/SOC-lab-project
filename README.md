@@ -30,3 +30,9 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 - Group Policy
 - Ubuntu Server
 - VMware Workstation
+
+## Attack Simulations
+
+The lab is used to emulate adversary activity and validate detection capabilities within Wazuh.
+
+- [RDP Brute Force Attack Detection](./playbooks/01-brute-force)
