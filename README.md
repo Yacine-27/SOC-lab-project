@@ -25,7 +25,7 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 The lab is used to emulate adversary activity and validate detection capabilities within Wazuh.
 
 - [Reconnaissance](./playbooks/01-Reconnaissance/README.md)
-- [Initial Access Detection](./playbooks/02-initial-access/README.md)
+- [Initial Access](./playbooks/02-initial-access/README.md)
 
 ## Technologies
 
