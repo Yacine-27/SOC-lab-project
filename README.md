@@ -36,3 +36,8 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 - Group Policy
 - Ubuntu Server
 - VMware Workstation
+- Kali attack tool: nmap,hydra
+
+ ## Future Planning
+
+- Deploy Network-level IDS/IPS (Suricata, Zeek) to detect Network artifacts.
