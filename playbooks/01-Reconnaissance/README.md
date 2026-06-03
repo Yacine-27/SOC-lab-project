@@ -11,8 +11,10 @@ The following command was issued from the attack machine (`192.168.100.30`) to d
 ```bash
 nmap -sn 192.168.100.0/24
 ```
+Te attacker discovered the available machine, and which machine is the DC:
 
-<img width="1686" height="653" alt="01" src="https://github.com/user-attachments/assets/61fa5cfd-2f65-4063-b509-d1e24fabb4b5" />
+<img width="1398" height="548" alt="01" src="https://github.com/user-attachments/assets/03a997fd-2bbf-49c7-8e5f-e9a45f4e051f" />
+
 
 ## Detection
 
