@@ -24,7 +24,7 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 
 The lab is used to emulate adversary activity and validate detection capabilities within Wazuh.
 
-- [RDP Brute Force Attack Detection](./playbooks/01-brute-force/README.md)
+- [Initial Access Detection](./playbooks/02-initial-access/README.md)
 
 ## Technologies
 
