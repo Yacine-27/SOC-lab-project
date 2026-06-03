@@ -38,7 +38,7 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 - Group Policy
 - Ubuntu Server
 - VMware Workstation
-- Kali attack tool: nmap,hydra
+- Kali attack tool: nmap,hydra,xfreerdp.
 
  ## Future Planning
 
