@@ -26,6 +26,7 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 
 - [Reconnaissance](./playbooks/01-Reconnaissance/README.md)
 - [Initial Access](./playbooks/02-initial-access/README.md)
+- [Internal Discovery](./playbooks/03-internal-discovery/README.md)
 
 ## Technologies
 
