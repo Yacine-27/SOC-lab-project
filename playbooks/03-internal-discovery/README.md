@@ -1,11 +1,9 @@
 # Adversarial Emulation & Detection Engineering — Phase 03: Internal Discovery
 
 ## 1. Tactical Objective & Attack Methodology
-Following a successful initial foothold via credential exploitation, this phase emulates an interactive post-compromise scenario. The attacker leverages Remote Desktop Protocol (RDP) from the external platform to log into the compromised Windows client. Once authenticated, the attacker executes local and Active Directory discovery commands to map out system processes, domain infrastructure, and high-value target groups (e.g., Domain Admins).
+Following a successful initial foothold via credential exploitation, the attacker leverages Remote Desktop Protocol (RDP) from the external platform to log into the compromised Windows client. Once authenticated, the attacker executes local and Active Directory discovery commands to map out system processes and domain infrastructure.
 
 This simulation validates the visibility of host-level Sysmon configurations and advanced PowerShell Group Policy Object (GPO) audit policies under an interactive threat model.
-
-### Adversarial Emulation Pipeline
 
 #### Interactive Session Establishment
 The attacker establishes an interactive RDP session using valid harvested domain credentials via `xfreerdp`:
