@@ -5,7 +5,7 @@ The objective of this phase is to simulate an external threat actor attempting t
 
 **Target Asset:** Windows 10 Client (`192.168.100.40`)
 **Attacking Platform:** Kali Linux (`192.168.100.30`)
-**Vector:** RDP / SMB Authentication Services
+**Vector:** RDP Authentication Services
 **MITRE ATT&CK Mapping:** T1110.001 (Brute Force: Password Guessing)
 
 ## 2. Execution (Adversarial Emulation)
