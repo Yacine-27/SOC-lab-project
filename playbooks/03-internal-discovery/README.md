@@ -11,15 +11,16 @@ This simulation validates the visibility of host-level Sysmon configurations and
 The attacker establishes an interactive RDP session using valid harvested domain credentials via `xfreerdp`:
 
 ```bash
-xfreerdp /u:ad_user /p:SecurePassword123 /v:192.168.100.40
+xfreerdp /u:client@DOMAIN /p:<password> /v:192.168.100.40
 ```
-<img width="1912" height="819" alt="internal" src="https://github.com/user-attachments/assets/8fe30ae7-1eae-429f-b5c9-d2b832667bc7" />
+<img width="1907" height="537" alt="client-rdp-redacted" src="https://github.com/user-attachments/assets/4971352e-6b94-4c8c-b731-ea4be291bf77" />
+
 
 ### Detection:
 
 Looking for rdp connection from the attacker ip (192.168.100.30) to target (192.168.100.40)
 
-<img width="1508" height="667" alt="int3" src="https://github.com/user-attachments/assets/1c798db1-6d4f-4a15-9771-86389b126014" />
+<img width="1487" height="465" alt="client-rdp-connection" src="https://github.com/user-attachments/assets/26bd61ac-32fc-49ec-85da-165c5b39d873" />
 
 Looking or discovery commands using Powershell:
 
