@@ -1,7 +1,6 @@
 # Adversarial Emulation & Detection Phase 4 : Credential Harvesting
 
-Following the systematic enumeration of domain objects and accounts during the internal discovery phase, operations shift toward elevating execution privileges and positioning for domain-wide lateral movement. This phase simulates credential harvesting via memory exploitation techniques targeting the Local Security Authority Subsystem Service (LSASS) process. 
-The primary objective is the extraction of plain-text passwords or NTLM hashes stored in volatile memory.
+Following the systematic enumeration of domain objects and accounts during the internal discovery phase, attacks shift toward elevating execution privileges. This phase simulates credential harvesting via memory exploitation techniques targeting the Local Security Authority Subsystem Service (LSASS) process. 
 
 ## Execution:
 ``` cmd
