@@ -1,0 +1,9 @@
+<group name="sysmon,">
+  <rule id="100010" level="5">
+    <if_group>sysmon_event3</if_group>
+    <description>Sysmon - Network Connection detected (Event ID 3)</description>
+    <mitre>
+      <id>T1046</id>
+    </mitre>
+  </rule>
+</group>
