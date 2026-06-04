@@ -1,5 +1,5 @@
 ## Adversarial Emulation & Detection Phase 6 : Data Exfiltration
-Following successful Domain Controller compromise, this phase simulates an adversary collecting and exfiltrating Active Directory database files from the environment(Collection:T1005 – Data from Local System).
+Following successful Domain Controller compromise, this phase simulates an adversary collecting and exfiltrating Active Directory database files from the environment (Collection:T1005 – Data from Local System).
 In an Active Directory ecosystem, ntds.dit file contains all domain usernames, group associations, and password hashes, An attacker cannot copy C:\Windows\NTDS\ntdsutil.dit directly because the Active Directory process locks it permanently. The workaround is taking a snapshot via the Volume Shadow Copy service or using ntdsutil.exe.
 ## Execution:
 First a snapshot was created using ntdsutil.exe, then data was exfilterated to a web server the attacker controls
