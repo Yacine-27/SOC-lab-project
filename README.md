@@ -28,6 +28,7 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 - [Initial Access](./playbooks/02-initial-access/README.md)
 - [Internal Discovery](./playbooks/03-internal-discovery/README.md)
 - [Credential Harvesting](playbooks/04-credential-harvesting)
+- [Lateral Movement](playbooks/05-lateral-movement/README.md)
 
 ## Technologies
 
