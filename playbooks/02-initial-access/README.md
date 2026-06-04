@@ -14,7 +14,7 @@ Using Hydra on the attacking platform, a network-based password-guessing attack 
 ```bash
 hydra -L users.txt -P passwords.txt rdp://192.168.100.40 -V
 ```
-<img width="1632" height="348" alt="Successful attack" src="https://github.com/user-attachments/assets/633d548f-a18a-4a47-863a-a5b1eceefb38" />
+<img width="1632" height="348" alt="pass-redacted" src="https://github.com/user-attachments/assets/ef0fb18e-a47a-4d8a-a5e4-a36db838f2c9" />
 
 ## 2. Detection
 
