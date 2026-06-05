@@ -4,7 +4,7 @@ Following successful credential harvesting from the compromised Windows Client, 
 
 ## Execution:
 ```
-xfreerdp /u:"Administrator@DOMAIN" /p:"password>" /v:192.168.100.20
+xfreerdp /u:"Administrator@DOMAIN" /p:"<password>" /v:192.168.100.20
 ```
 <img width="1676" height="821" alt="lateral-movement-exec" src="https://github.com/user-attachments/assets/0f94eab7-a73a-4787-a77f-6519d07341cb" />
 
