@@ -14,17 +14,24 @@ Using Hydra on the attacking platform, a network-based password-guessing attack 
 ```bash
 hydra -L users.txt -P passwords.txt rdp://192.168.100.40 -V
 ```
-<img width="1632" height="348" alt="pass-redacted" src="https://github.com/user-attachments/assets/ef0fb18e-a47a-4d8a-a5e4-a36db838f2c9" />
+
+<img width="1141" height="197" alt="execution" src="https://github.com/user-attachments/assets/165a9721-deed-43ac-8914-ca25c5319bff" />
 
 ## 2. Detection
 
 A spike in failed logons detected on target machine:
 
-<img width="1916" height="787" alt="Brute force on endpoint detected" src="https://github.com/user-attachments/assets/26808e3e-ac76-40dc-aa08-736af23898ee" />
+<img width="1502" height="792" alt="failed" src="https://github.com/user-attachments/assets/44f773dc-4cfa-42ab-93a2-94c36b875169" />
+
 
 Successful network logon detected:
 
-<img width="1455" height="612" alt="successful network logon" src="https://github.com/user-attachments/assets/4918ec05-f400-4557-9a2f-dab5f9998d86" />
+<img width="1485" height="602" alt="success" src="https://github.com/user-attachments/assets/6ed2a82e-f7bf-4d58-900b-d18a770345d7" />
+
+Looking in the IDS alerts:
+
+<img width="1493" height="722" alt="suricata" src="https://github.com/user-attachments/assets/5432995c-5575-4849-8696-8360bc6ab45a" />
+
 
 Filtering for command ran on the attacker machine:
 
