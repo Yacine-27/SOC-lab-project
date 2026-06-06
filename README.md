@@ -1,10 +1,11 @@
 # Home SOC Lab
 
-A Security Operations Center (SOC) home lab built around Active Directory, Sysmon, PowerShell auditing, and Wazuh SIEM for centralized security monitoring and log analysis.
+A Security Operations Center (SOC) home lab built around Active Directory, Sysmon, PowerShell auditing, Suricata IDS, and Wazuh SIEM for centralized security monitoring, threat detection, and log analysis.
 
 ## Architecture
 
-<img width="763" height="512" alt="thumbnail" src="https://github.com/user-attachments/assets/4059e66b-0636-4642-bf70-fc81533d768e" />
+<img width="768" height="512" alt="thumbnail" src="https://github.com/user-attachments/assets/ba43bea8-6d96-4ac6-81a0-2579a7d23e1d" />
+
 
 ## Wazuh Dashboard
 
@@ -13,12 +14,13 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 
 ## Key Features
 
-- Active Directory domain with centralized policy management
-- Sysmon deployment using the SwiftOnSecurity configuration
-- PowerShell Module, Script Block, and Transcription logging via GPO
-- Centralized log collection and analysis using Wazuh
-- Agent-side event filtering to reduce SIEM noise
-- Index State Management (ISM) policies for automated log retention
+- Active Directory domain with centralized policy management.
+- Sysmon deployment using the SwiftOnSecurity configuration.
+- PowerShell Module, Script Block, and Transcription logging via GPO.
+- Suricata network intrusion detection and traffic monitoring.
+- Centralized log collection and analysis using Wazuh.
+- Agent-side event filtering to reduce SIEM noise.
+- Index State Management (ISM) policies for automated log retention.
 
 ## Attack Simulations
 
@@ -34,6 +36,7 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 ## Technologies
 
 - Wazuh
+- Suricata IDS
 - Active Directory
 - Sysmon
 - Windows Event Logging
@@ -45,4 +48,4 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 
  ## Future Planning
 
-- Deploy Network-level IDS/IPS (Suricata, Zeek) to detect Network artifacts.
+- Build custom Wazuh detection rules.
