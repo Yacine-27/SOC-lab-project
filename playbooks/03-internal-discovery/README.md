@@ -9,9 +9,9 @@ This simulation validates the visibility of host-level Sysmon configurations and
 The attacker establishes an interactive RDP session using valid harvested domain credentials via `xfreerdp`:
 
 ```bash
-xfreerdp /u:client@DOMAIN /p:<password> /v:192.168.100.40
+xfreerdp3 /u:client@DOMAIN /p:<password> /v:192.168.100.40
 ```
-<img width="1907" height="537" alt="client-rdp-redacted" src="https://github.com/user-attachments/assets/4971352e-6b94-4c8c-b731-ea4be291bf77" />
+<img width="1907" height="537" alt="xfreerdp3-execution" src="https://github.com/user-attachments/assets/4971352e-6b94-4c8c-b731-ea4be291bf77" />
 
 
 ### Detection:
@@ -22,8 +22,8 @@ Looking for rdp connection from the attacker ip (192.168.100.30) to target (192.
 
 Looking or discovery commands using Powershell:
 
-<img width="1512" height="572" alt="int 5" src="https://github.com/user-attachments/assets/500ead48-d71d-4364-b3a9-b1f18f3ab11d" />
+<img width="1512" height="572" alt="discovery-commands-powershell" src="https://github.com/user-attachments/assets/500ead48-d71d-4364-b3a9-b1f18f3ab11d" />
 
 Looking for discovery command on the target using process creation sysmon event:
 
-<img width="1920" height="1030" alt="int 6" src="https://github.com/user-attachments/assets/940702f3-7455-4b69-8954-7091e60d9bfc" />
+<img width="1920" height="1030" alt="sysmon discovery" src="https://github.com/user-attachments/assets/940702f3-7455-4b69-8954-7091e60d9bfc" />
