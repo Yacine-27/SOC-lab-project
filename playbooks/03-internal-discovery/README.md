@@ -24,6 +24,6 @@ Looking or discovery commands using Powershell:
 
 <img width="1512" height="572" alt="int 5" src="https://github.com/user-attachments/assets/500ead48-d71d-4364-b3a9-b1f18f3ab11d" />
 
-Looking for discovery command on the target:
+Looking for discovery command on the target using process creation sysmon event:
 
 <img width="1920" height="1030" alt="int 6" src="https://github.com/user-attachments/assets/940702f3-7455-4b69-8954-7091e60d9bfc" />
