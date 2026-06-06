@@ -16,7 +16,7 @@ A Security Operations Center (SOC) home lab built around Active Directory, Sysmo
 
 - Active Directory domain with centralized policy management.
 - Sysmon deployment using the SwiftOnSecurity configuration.
-- PowerShell Module, Script Block, and Transcription logging via GPO.
+- PowerShell Script Block, and Transcription logging via GPO.
 - Suricata network intrusion detection and traffic monitoring.
 - Centralized log collection and analysis using Wazuh.
 - Agent-side event filtering to reduce SIEM noise.
