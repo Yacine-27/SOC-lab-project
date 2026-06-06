@@ -18,10 +18,10 @@ Looking for IDS alerts, we can see network connections to the attacker using cur
 
 Looking for exfilteration using curl:
 
-<img width="1487" height="450" alt="curl" src="https://github.com/user-attachments/assets/90652e11-4616-42a6-8079-336a536c2639" />
+<img width="1487" height="450" alt="curl-detection" src="https://github.com/user-attachments/assets/90652e11-4616-42a6-8079-336a536c2639" />
 
 Looking for processes ran using ntdsutil:
 
-<img width="1506" height="512" alt="ntds" src="https://github.com/user-attachments/assets/c9a841fa-f1cd-4ec2-b243-8d3b1c1d7f07" />
+<img width="1506" height="512" alt="ntds-detection" src="https://github.com/user-attachments/assets/c9a841fa-f1cd-4ec2-b243-8d3b1c1d7f07" />
 
 
