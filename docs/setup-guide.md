@@ -1,6 +1,7 @@
 ## Network Architecture:
 **Environment:** VMware Workstation isolated host-only network (`192.168.100.0/24`).
 **SIEM Node:** Ubuntu Server (`192.168.100.10`) running central Wazuh Manager and Indexer.
+**Network IDS Sensor:** Ubuntu Server (`192.168.100.10`) running Suricata IDS in network-monitoring mode, passively inspecting mirrored traffic for intrusion detection and protocol analysis.
 **Domain Controller:** Windows Server 2022 (`192.168.100.20`) handling aauthentication and serving GPOs.
 **Endpoint Node:** Windows 10 Client (`192.168.100.40`) domain-joined for user activity tracking.
 
