@@ -16,10 +16,12 @@ Looking for IDS alerts, we can see network connections to the attacker using cur
 
 <img width="1515" height="657" alt="exfil-suricata" src="https://github.com/user-attachments/assets/22c16970-469f-42b8-9838-14f6f864e0e5" />
 
-Looking for processes ran using ntdsutil:
-
-<img width="1502" height="533" alt="ntds-wazuh" src="https://github.com/user-attachments/assets/10445e6d-bd3e-4dbd-8fcc-410e1628150c" />
-
 Looking for exfilteration using curl:
 
-<img width="1515" height="478" alt="curl-wazuh" src="https://github.com/user-attachments/assets/38b2d455-40b8-4631-8a6a-e3fa848d53d1" />
+<img width="1487" height="450" alt="curl" src="https://github.com/user-attachments/assets/90652e11-4616-42a6-8079-336a536c2639" />
+
+Looking for processes ran using ntdsutil:
+
+<img width="1506" height="512" alt="ntds" src="https://github.com/user-attachments/assets/c9a841fa-f1cd-4ec2-b243-8d3b1c1d7f07" />
+
+
