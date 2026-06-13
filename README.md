@@ -29,7 +29,7 @@ The lab is used to emulate adversary activity and validate detection capabilitie
 - [Reconnaissance](./playbooks/01-Reconnaissance/README.md)
 - [Initial Access](./playbooks/02-initial-access/README.md)
 - [Internal Discovery](./playbooks/03-internal-discovery/README.md)
-- [Credential Harvesting(lsass dumping)](playbooks/04-credential-harvesting/02-lsass-dumping/README.md)
+- [Credential Harvesting (lsass dumping)](playbooks/04-credential-harvesting/02-lsass-dumping/README.md)
 - [Lateral Movement](playbooks/05-lateral-movement/README.md)
 - [Data Exfilteration](playbooks/06-data-exfiltration/README.md)
 
