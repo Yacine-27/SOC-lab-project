@@ -1,4 +1,4 @@
-# Adversarial Emulation & Detection Phase 4 : Credential Harvesting
+# Adversarial Emulation & Detection Phase 4 : Credential Harvesting (lsass dumping)
 
 Following the systematic enumeration of domain objects and accounts during the internal discovery phase, attacks shift toward elevating execution privileges. This phase simulates credential harvesting via memory exploitation techniques targeting the Local Security Authority Subsystem Service (LSASS) process. 
 
